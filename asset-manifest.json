@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/web-aimlab/static/css/main.c4e236e7.chunk.css",
+    "main.js": "/web-aimlab/static/js/main.bcbf8762.chunk.js",
+    "main.js.map": "/web-aimlab/static/js/main.bcbf8762.chunk.js.map",
+    "runtime-main.js": "/web-aimlab/static/js/runtime-main.c2422061.js",
+    "runtime-main.js.map": "/web-aimlab/static/js/runtime-main.c2422061.js.map",
+    "static/js/2.a0abdbcc.chunk.js": "/web-aimlab/static/js/2.a0abdbcc.chunk.js",
+    "static/js/2.a0abdbcc.chunk.js.map": "/web-aimlab/static/js/2.a0abdbcc.chunk.js.map",
+    "index.html": "/web-aimlab/index.html",
+    "static/css/main.c4e236e7.chunk.css.map": "/web-aimlab/static/css/main.c4e236e7.chunk.css.map",
+    "static/js/2.a0abdbcc.chunk.js.LICENSE.txt": "/web-aimlab/static/js/2.a0abdbcc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2422061.js",
+    "static/js/2.a0abdbcc.chunk.js",
+    "static/css/main.c4e236e7.chunk.css",
+    "static/js/main.bcbf8762.chunk.js"
+  ]
+}
