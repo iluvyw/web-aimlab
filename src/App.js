@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import PlayScreen from './components/PlayScreen';
 
 function App() {
+  const [point, setPoint] = useState(0)
+  const [total, setTotal] = useState(0)
+
+  const refreshPage = () => {
+    window.location.reload(false);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <PlayScreen setPoint={setPoint} setTotal={setTotal} />
+      <div className='information'>
+        <h1>Point: {point}</h1>
+        <div className='small-container'>
+          <button onClick={() => refreshPage()}>Restart</button>
+          <a href='https://github.com/iluvyw'>
+            <h1>AIM LAB by ILUVYW</h1>
+          </a>
+        </div>
+        <h1>Total: {total}</h1>
+      </div>
     </div>
   );
 }
